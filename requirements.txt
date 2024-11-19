@@ -6,7 +6,7 @@ opencensus-ext-fastapi
 python-dotenv==1.0.1
 uvicorn==0.30.6
 certifi==2024.7.4
-pytestl 
+pytest
 s3fs
 # library that provides access to ODBC databases, allowing you to connect to and interact with databases like Microsoft SQL Server,
 pyodbc==5.1.0
