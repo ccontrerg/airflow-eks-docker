@@ -1,5 +1,12 @@
+aiohttp==3.10.5
+azure-cosmos==4.7.0
+fastapi==0.112.2
+opencensus-ext-azure
+opencensus-ext-fastapi
+python-dotenv==1.0.1
+uvicorn==0.30.6
+certifi==2024.7.4
 pytest
-
 # # Editable install with no version control (apache-airflow==1.10.10)
 # Babel==2.8.0
 # Flask-Admin==1.5.4

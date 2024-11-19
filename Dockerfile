@@ -4,9 +4,9 @@ FROM apache/airflow:2.10.3-python3.11
 
 # RUN pip install --user pytest
 
-COPY ./requirements.txt /code/requirements.txt
+COPY ./requirements.txt ${AIRFLOW_HOME}/requirements.txt
  
-RUN pip install --progress-bar off --no-cache-dir --upgrade -r /code/requirements.txt
+RUN pip install --progress-bar off --no-cache-dir --upgrade -r ${AIRFLOW_HOME}/requirements.txt
 
 # COPY dags/ ${AIRFLOW_HOME}/dags
 # COPY unittests.cfg ${AIRFLOW_HOME}/unittests.cfg
