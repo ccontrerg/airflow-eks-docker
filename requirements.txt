@@ -8,6 +8,7 @@ uvicorn==0.30.6
 certifi==2024.7.4
 pytest
 s3fs
+kubernetes
 # library that provides access to ODBC databases, allowing you to connect to and interact with databases like Microsoft SQL Server,
 pyodbc==5.1.0
 
