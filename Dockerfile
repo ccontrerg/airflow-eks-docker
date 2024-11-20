@@ -5,7 +5,7 @@ FROM apache/airflow:2.10.3-python3.11
 # RUN pip install --user pytest
 
 COPY ./requirements.txt ${AIRFLOW_HOME}/requirements.txt
-COPY ./pod_template_file.yaml ${AIRFLOW_HOME}/pod_template_file.yaml
+# COPY ./pod_template_file.yml ${AIRFLOW_HOME}/pod_template_file.yml
  
 RUN pip install --progress-bar off --no-cache-dir --upgrade -r ${AIRFLOW_HOME}/requirements.txt
 
